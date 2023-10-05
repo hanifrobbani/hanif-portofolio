@@ -1,0 +1,531 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  top: -10px;
+  bottom: 30px;
+  height: 80px;
+  background-color: darkgrey;
+  overflow: hidden;
+}
+
+.title {
+  margin-top: 10px;
+  position: relative;
+  font-size: 30px;
+  margin-left: 100px;
+  top: 10px;
+}
+
+ul {
+  position: relative;
+  left: 660px;
+  bottom: 38px;
+}
+
+nav,
+ul,
+li,
+a {
+  display: flex;
+  margin-top: auto;
+  margin-left: 20px;
+  font-size: 18px;
+  text-decoration: transparent;
+  color: black;
+  transition: text-decoration 0.5s ease;
+}
+
+header a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  font-weight: bolder;
+  color: white;
+}
+
+/* Main Utama*/
+
+main {
+  justify-content: space-between;
+  align-items: center;
+  height: 170em;
+}
+
+main .profile {
+  position: relative;
+  left: 755px;
+  top: 100px;
+  width: 275px;
+  border: 1.5px solid black;
+  border-radius: 100%;
+}
+
+.container {
+  margin: auto;
+  margin-left: 250px;
+  margin-top: -280px;
+  padding: 100px 50px;
+  margin-bottom: 350px;
+}
+
+.container h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-left: 100px;
+  color: darkslategray;
+  width: auto;
+}
+
+.container,
+.myname {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+}
+.btn1 {
+  padding: 12px 10px;
+  border: 2px solid;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: 0.5s ease;
+}
+.btn2 {
+  padding: 12px 10px;
+  margin-left: 120px;
+  border: 2px solid darkslategray;
+  text-align: center;
+  font-size: 16px;
+  background-color: darkslategray;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: 0.5s ease;
+}
+.btn .tag-a {
+  width: 0;
+  padding: 0;
+}
+/* Menghapus garis bawah pada tag a */
+.btn1,
+.btn2,
+a:hover {
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background-color: darkslategray;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.instagram-git {
+  display: flex;
+  width: 50px;
+}
+.ig {
+  width: 35px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.git {
+  width: 35px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+.ig:hover,
+.git:hover {
+  box-shadow: 4px 4px 4px 3px darkslategrey;
+  border-radius: 10px;
+  border: 2px solid honeydew;
+  transition: 0.1s ease-in-out;
+}
+.a2 {
+  width: 0;
+  padding: 0;
+}
+/* Bagian About*/
+
+.container2 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: -310px;
+  margin-bottom: 150px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.container2 h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 430px;
+  margin-bottom: -20px;
+  margin-top: 50px;
+}
+.picture1 {
+  position: relative;
+  width: 300px;
+  top: 60px;
+  left: 60px;
+  border: 2px solid gray;
+  border-radius: 30px;
+  box-shadow: 4px 4px 5px gray;
+}
+.container2 .box1 {
+  border: 2px solid darkslategray;
+  width: 300px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: -300px;
+  height: 150px;
+}
+.container2 .box2 {
+  border: 2px solid darkslategray;
+  width: 300px;
+  height: 150px;
+  position: relative;
+  margin-left: 730px;
+  margin-top: -155px;
+}
+.box1,
+.box2 {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.box1,
+.userx {
+  margin-top: 10px;
+  margin-bottom: -20px;
+  width: 40px;
+}
+.box1,
+.edux {
+  margin-top: 10px;
+  margin-bottom: -20px;
+  width: 40px;
+}
+.teks1 {
+  margin-top: -15px;
+}
+.container2 .teks {
+  border: 2px solid white;
+  width: 650px;
+  height: 200px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+/* Bagian Experience */
+.container3 {
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.container3 .exp {
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+}
+.tampung-box {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 30px;
+}
+.front-box,
+.back-box {
+  width: 450px;
+  border-radius: 20px;
+  height: 350px;
+  border: 2px solid lightslategrey;
+  margin: 10px;
+  padding: 0 30px;
+  background-color: #f9f9f9;
+}
+.judul-box {
+  text-align: center;
+  opacity: 0.9;
+  font-weight: 900;
+  font-size: 25px;
+}
+/* box frontend */
+.judul-desc4 {
+  margin-top: -240px;
+}
+.tick1 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.tick2 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.tick3 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.tick4 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+  margin-left: 300px;
+  margin-top: -450px;
+}
+.tick5 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+  margin-left: 300px;
+  margin-top: -5px;
+}
+.content-box1 {
+  display: flex;
+}
+.content-box2 {
+  display: flex;
+}
+.content-box3 {
+  display: flex;
+}
+.content-box4 {
+  display: flex;
+}
+.content-box5 {
+  display: flex;
+}
+.desc {
+  margin-top: -18px;
+  margin-left: 50px;
+}
+.desc2 {
+  margin-top: -18px;
+  margin-left: 50px;
+}
+.desc3 {
+  margin-top: -18px;
+  margin-left: 54px;
+}
+.desc4 {
+  margin-top: -215px;
+  margin-left: 350px;
+}
+.desc5 {
+  margin-top: -15px;
+  margin-left: 350px;
+}
+/* box backend */
+.tick6 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.box-content6 {
+  display: flex;
+  margin-top: -5px;
+}
+.desc6 {
+  margin-top: -15px;
+  margin-left: 50px;
+}
+.tick7 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.box-content7 {
+  display: flex;
+  margin-top: -5px;
+}
+.desc7 {
+  margin-top: -15px;
+  margin-left: 50px;
+}
+.tick8 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+  margin-left: 320px;
+  margin-top: -295px;
+}
+.judul-desc8 {
+  margin-top: -160px;
+}
+.box-content8 {
+  display: flex;
+  margin-top: 25px;
+}
+.desc8 {
+  margin-top: -135px;
+  margin-left: 370px;
+}
+.tick9 {
+  width: 30px;
+  display: flex;
+  object-fit: contain;
+  margin-right: 20px;
+  margin-left: 320px;
+}
+.box-content9 {
+  display: flex;
+  margin-top: 25px;
+}
+.desc9 {
+  margin-top: -18px;
+  margin-left: 370px;
+}
+.judul-desc9 {
+  margin-top: 12px;
+}
+
+/* contact */
+
+.container4{
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.kontak{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.from{
+  width: 350px;
+  height: 50px;
+  margin: auto;
+  justify-content: center;
+}
+.user-from{
+  width: 350px;
+  padding: 5px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.kotak-email{
+  margin: auto;
+  justify-content: center;
+  width: 350px;
+  margin-top: 30px;
+  height: 50px;
+}
+.email{
+  width: 350px;
+  padding: 5px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.kotak-text{
+  width: 350px;
+  height: 150px;
+  margin: auto;
+  justify-content: center;
+  margin-top: 30px;
+}
+.textarea{
+  width: 350px;
+  height: 200px;
+  border: 2px solid gray;
+  resize: none;
+  border-radius: 10px;
+}
+.lbl{
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.sumit{
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+.sbmt{
+  width: 120px;
+  height: 45px;
+  text-align: center;
+  font-size: 18px;
+  background-color: darkslategray;
+  color: white;
+  border-radius: 16px;
+  border: 2px solid darkslategray;
+  font-weight: bolder;
+  transition: .3s ease;
+  cursor: pointer;
+}
+.user-from:focus,
+.email:focus,
+.textarea:focus{
+  border: 2.5px solid black;
+  box-shadow:3px 3px 4px 3px #D3D3D3;
+  outline-width: 0px;
+}
+.sbmt:hover{
+  background-color: white;
+  color: black;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  max-height:80px;
+  bottom: -90%;
+  background-color: grey;
+  padding-top: 30px;
+}
+
+footer .copy {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
