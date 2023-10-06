@@ -60,7 +60,7 @@ header a:hover {
 main {
   justify-content: space-between;
   align-items: center;
-  height: 170em;
+  height: 160em;
 }
 
 main .profile {
@@ -254,7 +254,7 @@ a:hover {
 }
 
 .container3 .exp {
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 40px;
   text-align: center;
   justify-content: center;
@@ -425,12 +425,12 @@ a:hover {
 
 .container4{
   width: 100%;
-  height: 600px;
+  height: 620px;
   margin: auto;
   justify-content: center;
   padding-top: 10px;
-  padding-bottom: 20px;
-  margin-top: -50px;
+  padding-bottom: 25px;
+  margin-top: -120px;
 }
 .kontak{
   text-align: center;
@@ -509,7 +509,7 @@ a:hover {
 .email:focus,
 .textarea:focus{
   border: 2.5px solid black;
-  box-shadow:3px 3px 4px 3px #D3D3D3;
+  box-shadow:3px 3px 4px 4px #D3D3D3;
   outline-width: 0px;
 }
 .sbmt:hover{
